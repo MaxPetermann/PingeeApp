@@ -53,6 +53,9 @@ constructs the Tk root and starts the event loop via :func:`main`.
 
 from __future__ import annotations
 
+# Copyright (C) 2026 Max Petermann
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 import csv
 import ipaddress
 import os

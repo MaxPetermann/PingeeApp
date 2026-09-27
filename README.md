@@ -4,6 +4,8 @@
 
 The application is designed for desktop use with a mouse and keyboard. Its graphical interface is built with Python's standard-library Tkinter. English is the default UI language; German, Spanish, Dutch, Polish, and Simplified Chinese are also available.
 
+pingee is licensed under **GNU GPL version 3 or later**. See [LICENSE](LICENSE).
+
 ## Features
 
 - Monitor many IP addresses and hostnames concurrently, with a configurable interval, timeout, and local process limit.
@@ -40,6 +42,18 @@ python pingee.py
 ```
 
 The SSH fields and remote features are optional. Enter one address or hostname per line, or paste a supported device list, then select **Start monitoring**. Use **Language** in the toolbar to change the interface language.
+
+## Windows release build
+
+The repository includes a PowerShell build script that creates a standalone 64-bit Windows executable with the SSH dependencies bundled:
+
+```powershell
+./build_windows.ps1
+```
+
+The executable is written to `dist/pingee.exe`. The script also creates `dist/pingee-windows-x64.zip`, which contains the executable and the project license for use as a GitHub Release asset. The build requires Python 3.10 or newer and internet access the first time so pip can install the pinned build dependencies. Build on Windows to produce a Windows executable; PyInstaller does not cross-compile between operating systems.
+
+The generated executable does not need a separate Python installation. Local monitoring still relies on Windows' built-in `ping` command. SSH features are included in the executable; remote neighbor monitoring and DHCP capture still require the corresponding commands and permissions on the SSH host.
 
 ## SSH monitoring
 
@@ -78,4 +92,4 @@ When changing background work, preserve the rule that workers communicate with t
 
 ## Repository publication checklist
 
-Before publishing a public repository, review the SSH host-key behavior and all dependencies, confirm the intended license, and remove any local data or credentials from example files and commit history. No license is included yet; choose and add one if you want to grant others reuse rights. Do not commit real network inventories, passwords, or captured packet data.
+Before publishing, review the SSH host-key behavior and all dependencies, and remove any local data or credentials from example files and commit history. Do not commit real network inventories, passwords, or captured packet data. The project is distributed under GPL-3.0-or-later; retain the license and copyright notices when redistributing source or binaries.
