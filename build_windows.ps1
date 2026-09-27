@@ -13,12 +13,14 @@ python -m pip install -r requirements-build.txt
 if ($LASTEXITCODE -ne 0) { throw 'Could not install the pinned build dependencies.' }
 
 python -m PyInstaller --noconfirm --clean --onefile --windowed `
-    --name pingee --collect-all paramiko pingee.py
+    --name pingee --icon pingee.ico --add-data "pingee.ico;." `
+    --collect-all paramiko pingee.py
 if ($LASTEXITCODE -ne 0) { throw 'PyInstaller failed to build pingee.exe.' }
 
 $zipPath = Join-Path $PSScriptRoot 'dist\pingee-windows-x64.zip'
 $releaseFiles = @(
     (Join-Path $PSScriptRoot 'dist\pingee.exe'),
+    (Join-Path $PSScriptRoot 'pingee.ico'),
     (Join-Path $PSScriptRoot 'pingee.py'),
     (Join-Path $PSScriptRoot 'LICENSE'),
     (Join-Path $PSScriptRoot 'README.md'),

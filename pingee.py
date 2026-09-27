@@ -63,6 +63,7 @@ import platform
 import queue
 import re
 import subprocess
+import sys
 import threading
 import time
 import tkinter as tk
@@ -2883,6 +2884,15 @@ Numeric latency, loss, and address fields sort by value; empty values are placed
 def main() -> None:
     """Create the Tk root, instantiate the application, and run the desktop event loop."""
     root = tk.Tk()
+    # Reuse the release icon in the window and taskbar; PyInstaller extracts
+    # bundled data to _MEIPASS when running as a one-file executable.
+    resource_dir = getattr(sys, "_MEIPASS", os.path.dirname(os.path.abspath(__file__)))
+    icon_path = os.path.join(resource_dir, "pingee.ico")
+    if os.path.isfile(icon_path):
+        try:
+            root.iconbitmap(icon_path)
+        except tk.TclError:
+            pass
     PingeeApp(root)
     root.mainloop()
 
