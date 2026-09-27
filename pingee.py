@@ -111,6 +111,8 @@ TRANSLATIONS = {
     "SSH testen": ("Test SSH", "SSH testen", "Probar SSH", "SSH testen", "Testuj SSH", "测试 SSH"), "ARP / ip neigh überwachen": ("Monitor ARP / ip neigh", "ARP / ip neigh überwachen", "Supervisar ARP / ip neigh", "ARP / ip neigh bewaken", "Monitoruj ARP / ip neigh", "监控 ARP / ip neigh"), "DHCP tcpdump": ("DHCP tcpdump", "DHCP tcpdump", "DHCP tcpdump", "DHCP tcpdump", "DHCP tcpdump", "DHCP tcpdump"),
     "Ziel-Filter:": ("Target filter:", "Ziel-Filter:", "Filtro de destinos:", "Doelfilter:", "Filtr celów:", "目标筛选："), "Dauerhaft offline ausblenden": ("Hide always-offline", "Dauerhaft offline ausblenden", "Ocultar siempre desconectados", "Altijd offline verbergen", "Ukryj stale offline", "隐藏持续离线"), "Aktuell offline ausblenden": ("Hide currently offline", "Aktuell offline ausblenden", "Ocultar desconectados", "Huidig offline verbergen", "Ukryj obecnie offline", "隐藏当前离线"), "Alle": ("Select all", "Alle", "Seleccionar todo", "Alles", "Zaznacz wszystko", "全选"), "Auswahl leeren": ("Clear selection", "Auswahl leeren", "Limpiar selección", "Selectie wissen", "Wyczyść zaznaczenie", "清除选择"),
     "CSV importieren": ("Import targets", "CSV importieren", "Importar CSV", "CSV importeren", "Importuj CSV", "导入 CSV"), "Messwerte exportieren": ("Export measurements", "Messwerte exportieren", "Exportar mediciones", "Metingen exporteren", "Eksportuj pomiary", "导出测量数据"),
+    "Min. Fehlversuche:": ("Min failed probes:", "Min. Fehlversuche:", "Mín. fallos:", "Min. mislukt:", "Min. niepowodzeń:", "最少失败次数："), "Max. Fehlversuche:": ("Max failed probes:", "Max. Fehlversuche:", "Máx. fallos:", "Max. mislukt:", "Maks. niepowodzeń:", "最多失败次数："),
+    "Offline-Berichte": ("Offline reports", "Offline-Berichte", "Informes de desconexión", "Offline-rapporten", "Raporty o niedostępności", "离线报告"), "Host-Filter:": ("Host filter:", "Host-Filter:", "Filtro de host:", "Hostfilter:", "Filtr hosta:", "主机筛选："), "Aktualisieren": ("Refresh", "Aktualisieren", "Actualizar", "Vernieuwen", "Odśwież", "刷新"), "Bericht exportieren": ("Export report", "Bericht exportieren", "Exportar informe", "Rapport exporteren", "Eksportuj raport", "导出报告"), "Ausfallbeginn": ("Offline since", "Ausfallbeginn", "Inicio de la caída", "Offline sinds", "Początek niedostępności", "离线开始"), "Wieder erreichbar": ("Recovered at", "Wieder erreichbar", "Recuperado a las", "Weer bereikbaar", "Ponownie dostępny", "恢复在线"), "Dauer": ("Duration", "Dauer", "Duración", "Duur", "Czas trwania", "持续时间"), "Dauer (Sekunden)": ("Duration (seconds)", "Dauer (Sekunden)", "Duración (segundos)", "Duur (seconden)", "Czas trwania (sekundy)", "持续时间（秒）"), "Fehlgeschlagene Pings": ("Failed probes", "Fehlgeschlagene Pings", "Pings fallidos", "Mislukte pings", "Nieudane pings", "失败的 Ping"), "Zustand": ("State", "Zustand", "Estado", "Status", "Stan", "状态"), "Wieder erreichbar.": ("Recovered", "Wieder erreichbar", "Recuperado", "Weer bereikbaar", "Ponownie dostępny", "已恢复"), "Weiterhin offline": ("Still offline", "Weiterhin offline", "Sigue sin conexión", "Nog steeds offline", "Nadal niedostępny", "仍处于离线状态"), "Messung vor Wiederherstellung gestoppt": ("Monitoring stopped before recovery", "Messung vor Wiederherstellung gestoppt", "La supervisión se detuvo antes de recuperarse", "Meting gestopt vóór herstel", "Monitorowanie zatrzymano przed przywróceniem", "监测在恢复前停止"), "Keine Ausfälle im gewählten Zeitraum.": ("No outages in the selected period.", "Keine Ausfälle im gewählten Zeitraum.", "No hubo caídas en el periodo seleccionado.", "Geen uitval in de geselecteerde periode.", "Brak awarii w wybranym okresie.", "所选时间段内没有中断。"), "Bericht nutzt die in der Zielliste ausgewählten Hosts; ohne Auswahl werden alle Hosts berücksichtigt.": ("The report uses hosts selected in the target list; with no selection, it includes all hosts.", "Der Bericht nutzt die in der Zielliste ausgewählten Hosts; ohne Auswahl werden alle Hosts berücksichtigt.", "El informe usa los hosts seleccionados en la lista; si no hay selección, incluye todos.", "Het rapport gebruikt geselecteerde hosts; zonder selectie worden alle hosts opgenomen.", "Raport obejmuje hosty zaznaczone na liście; bez zaznaczenia uwzględnia wszystkie.", "报告使用目标列表中选中的主机；未选择时包含所有主机。"), "Offline-Bericht speichern": ("Save offline report", "Offline-Bericht speichern", "Guardar informe de desconexión", "Offline-rapport opslaan", "Zapisz raport niedostępności", "保存离线报告"), "Keine Offline-Berichte": ("No offline reports", "Keine Offline-Berichte", "No hay informes de desconexión", "Geen offline-rapporten", "Brak raportów o niedostępności", "没有离线报告"), "Alle Dateien": ("All files", "Alle Dateien", "Todos los archivos", "Alle bestanden", "Wszystkie pliki", "所有文件"),
     "Ziele eigenes Fenster": ("Targets in separate window", "Ziele eigenes Fenster", "Destinos en ventana aparte", "Doelen in apart venster", "Cele w osobnym oknie", "在独立窗口显示目标"), "Graph eigenes Fenster": ("Graph in separate window", "Graph eigenes Fenster", "Gráfico en ventana aparte", "Grafiek in apart venster", "Wykres w osobnym oknie", "在独立窗口显示图表"), "Messwerte eigenes Fenster": ("Measurements in separate window", "Messwerte eigenes Fenster", "Mediciones en ventana aparte", "Metingen in apart venster", "Pomiary w osobnym oknie", "在独立窗口显示测量值"),
     "Ping-Ziele": ("Ping targets", "Ping-Ziele", "Destinos de ping", "Ping-doelen", "Cele ping", "Ping 目标"), "Adressen, Gerätelisten oder Netzwerktopologien einfügen.": ("Paste addresses, device lists, or network topologies.", "Adressen, Gerätelisten oder Netzwerktopologien einfügen.", "Pega direcciones, listas de dispositivos o topologías de red.", "Plak adressen, apparatenlijsten of netwerktopologieën.", "Wklej adresy, listy urządzeń lub topologie sieci.", "粘贴地址、设备列表或网络拓扑。"), "Ziele hinzufügen": ("Add targets", "Ziele hinzufügen", "Añadir destinos", "Doelen toevoegen", "Dodaj cele", "添加目标"), "Auswahl entfernen": ("Remove selected", "Auswahl entfernen", "Eliminar selección", "Selectie verwijderen", "Usuń zaznaczone", "移除所选项"), "Zielstatus": ("Target status", "Zielstatus", "Estado de destinos", "Doelstatus", "Stan celu", "目标状态"), "Namen, IP-Adressen und Markdown-Tabellen werden erkannt.": ("Names, IP addresses, and Markdown tables are detected.", "Namen, IP-Adressen und Markdown-Tabellen werden erkannt.", "Se reconocen nombres, direcciones IP y tablas Markdown.", "Namen, IP-adressen en Markdown-tabellen worden herkend.", "Nazwy, adresy IP i tabele Markdown są rozpoznawane.", "可识别名称、IP 地址和 Markdown 表格。"),
     "Hostname": ("Hostname", "Hostname", "Nombre de host", "Hostnaam", "Nazwa hosta", "主机名"), "IP-Adresse / Ziel": ("IP address / target", "IP-Adresse / Ziel", "IP / destino", "IP-adres / doel", "Adres IP / cel", "IP 地址 / 目标"), "MAC-Adresse": ("MAC address", "MAC-Adresse", "Dirección MAC", "MAC-adres", "Adres MAC", "MAC 地址"), "Status": ("Status", "Status", "Estado", "Status", "Stan", "状态"), "Letzter Ping": ("Last ping", "Letzter Ping", "Último ping", "Laatste ping", "Ostatni ping", "上次 Ping"), "Letzter Erfolg": ("Last success", "Letzter Erfolg", "Último éxito", "Laatste succes", "Ostatni sukces", "上次成功"), "Verlust": ("Loss", "Verlust", "Pérdida", "Verlies", "Utrata", "丢包"), "Letzter Verlust": ("Last loss", "Letzter Verlust", "Última pérdida", "Laatste verlies", "Ostatnia utrata", "上次丢包"),
@@ -132,6 +134,8 @@ TRANSLATIONS = {
 }
 
 STATUS_TRANSLATIONS = {
+    "offline_report_summary": ("{periods} outage(s) across {hosts} host(s)", "{periods} Ausfallzeitraum/-zeiträume auf {hosts} Host(s)", "{periods} caída(s) en {hosts} host(s)", "{periods} uitvalperiode(s) op {hosts} host(s)", "Awarie: {periods} · hosty: {hosts}", "{hosts} 台主机发生 {periods} 次中断"),
+    "offline_report_truncated": (" · showing the latest {shown} of {total}", " · angezeigt werden die letzten {shown} von {total}", " · se muestran las {shown} más recientes de {total}", " · nieuwste {shown} van {total} worden getoond", " · wyświetlono {shown} z {total} najnowszych", " · 显示最新 {shown} 条，共 {total} 条"),
     "targets_added": ("{count} target(s) added · {total} total", "{count} Ziel(e) hinzugefügt · {total} insgesamt", "{count} destino(s) añadido(s) · {total} en total", "{count} doel(en) toegevoegd · {total} totaal", "Dodano {count} celów · łącznie {total}", "已添加 {count} 个目标 · 共 {total} 个"),
     "csv_imported": ("CSV imported · {count} new target(s)", "CSV importiert · {count} neue Ziele", "CSV importado · {count} destino(s) nuevo(s)", "CSV geïmporteerd · {count} nieuwe doelen", "Zaimportowano CSV · nowe cele: {count}", "CSV 已导入 · 新增目标 {count} 个"),
     "measurement_active": ("Monitoring active · {count} target(s) · {capacity} · interval {interval} s", "Messung aktiv · {count} Ziel(e) · {capacity} · Intervall {interval} s", "Medición activa · {count} destino(s) · {capacity} · intervalo {interval} s", "Meting actief · {count} doel(en) · {capacity} · interval {interval} s", "Pomiar aktywny · cele: {count} · {capacity} · interwał {interval} s", "监测运行中 · {count} 个目标 · {capacity} · 间隔 {interval} 秒"),
@@ -452,13 +456,14 @@ class PingWorker(threading.Thread):
 
     def __init__(self, target: str, events: queue.Queue, stop_event: threading.Event,
                  interval: float, timeout: float, process_gate: threading.BoundedSemaphore | None = None,
-                 ssh_remote: "SSHRemote | None" = None) -> None:
+                 ssh_remote: "SSHRemote | None" = None, run_id: int = 0) -> None:
         """Bind one destination to its timing, cancellation, local-process limit, and optional shared SSH backend."""
         super().__init__(daemon=True, name=f"ping-{target}")
         self.target, self.events, self.stop_event = target, events, stop_event
         self.interval, self.timeout = interval, timeout
         self.process_gate = process_gate
         self.ssh_remote = ssh_remote
+        self.run_id = run_id
         self.mac_address = ""
 
     def run(self) -> None:
@@ -469,7 +474,7 @@ Waits are interruptible, and the next per-target interval begins after the prece
             latency, status = self.probe()
             if self.ssh_remote is None:
                 timestamp = datetime.now().astimezone()
-                self.events.put(("sample", self.target, timestamp, latency, status, self.mac_address))
+                self.events.put(("sample", self.target, timestamp, latency, status, self.mac_address, self.run_id))
             # Start the interval after finishing this probe. Time spent waiting for
             # a process slot must not let this target immediately reacquire it and
             # starve targets still waiting for their first sample.
@@ -497,7 +502,7 @@ The callback receives the target and normalized result tuple; callback exception
                     latency, status, mac = result
                     if mac:
                         self.mac_address = mac
-                    self.events.put(("sample", target, datetime.now().astimezone(), latency, status, mac or self.mac_address))
+                    self.events.put(("sample", target, datetime.now().astimezone(), latency, status, mac or self.mac_address, self.run_id))
                 latency, status, mac = self.ssh_remote.ping(self.target, self.timeout, callback=publish)
                 if mac:
                     self.mac_address = mac
@@ -818,6 +823,11 @@ Background workers communicate through a thread-safe event queue; only the Tk ma
         self.process_gate: threading.BoundedSemaphore | None = None
         self.ssh_remote: SSHRemote | None = None
         self.samples: dict[str, deque] = defaultdict(lambda: deque(maxlen=MAX_POINTS))
+        self.run_counter = 0
+        self.current_run_id: int | None = None
+        self.offline_outage_state: dict[tuple[str, int], dict] = {}
+        self.offline_report_history: deque = deque(maxlen=MAX_NEIGHBOR_HISTORY)
+        self.offline_report_revision = 0
         self.labels: dict[str, str] = {}
         self.macs: dict[str, str] = {}
         self.selected: set[str] = set()
@@ -855,6 +865,18 @@ Background workers communicate through a thread-safe event queue; only the Tk ma
         self.plot_tooltip_window_id: int | None = None
         self.plot_canvases: list[tk.Canvas] = []
         self.plot_points: dict[tk.Canvas, list[tuple[float, float, str, datetime, float | None, str]]] = {}
+        self.offline_report_window: tk.Toplevel | None = None
+        self.offline_report_tree: ttk.Treeview | None = None
+        self.offline_report_filter = tk.StringVar()
+        self.offline_report_min_failed = tk.StringVar()
+        self.offline_report_max_failed = tk.StringVar()
+        self.offline_report_status = tk.StringVar()
+        self.offline_report_rows: list[dict] = []
+        self.offline_report_cache_signature = None
+        self.offline_report_refresh_after_id: str | None = None
+        self.offline_report_filter.trace_add("write", lambda *_args: self._refresh_offline_report())
+        self.offline_report_min_failed.trace_add("write", lambda *_args: self._refresh_offline_report())
+        self.offline_report_max_failed.trace_add("write", lambda *_args: self._refresh_offline_report())
         self._plot_redraw_after_id = None
         self._drain_after_id = None
         self.neighbor_window: tk.Toplevel | None = None
@@ -1001,6 +1023,7 @@ Remember canonical source strings so repeated language changes do not translate 
         self.relative_unit.set(self.tr(unit_source) if unit_source in TRANSLATIONS else unit_source)
         self._refresh_run_button()
         self._redraw_plots()
+        self._refresh_offline_report()
 
     def _build_ui(self) -> None:
         """Construct the main window, toolbar sections, target editor, target table, graph, measurement table, and responsive split panes."""
@@ -1099,6 +1122,7 @@ Remember canonical source strings so repeated language changes do not translate 
         ttk.Checkbutton(self.filters, text="Aktuell offline ausblenden", variable=self.hide_current_offline, command=self._refresh_target_view).pack(side="left", padx=5)
         ttk.Button(self.filters, text="Alle", command=self.select_all).pack(side="right")
         ttk.Button(self.filters, text="Auswahl leeren", command=self.clear_selection).pack(side="right", padx=6)
+        ttk.Button(self.filters, text="Offline-Berichte", command=self.open_offline_report).pack(side="right", padx=6)
 
         self.file_controls = ttk.Frame(self.root, padding=(22, 0, 22, 7)); self.file_controls.pack(fill="x")
         ttk.Button(self.file_controls, text="CSV importieren", command=self.import_csv).pack(side="left")
@@ -1429,11 +1453,14 @@ Remember canonical source strings so repeated language changes do not translate 
                 if not self.ssh_host.get().strip() or not self.ssh_username.get().strip() or not self.ssh_password.get():
                     messagebox.showerror(self.tr("SSH-Daten fehlen"), self.tr("Bitte Host, Benutzer und Passwort eingeben.")); return
                 self.ssh_remote = SSHRemote(self.ssh_host.get(), self.ssh_username.get(), self.ssh_password.get(), channel_limit=2)
+            self.run_counter += 1
+            self.current_run_id = self.run_counter
         for target in self.labels:
             if target not in self.workers:
                 stop_event = threading.Event()
                 worker_gate = None if self.ssh_remote is not None else self.process_gate
-                worker = PingWorker(target, self.events, stop_event, interval, timeout, worker_gate, self.ssh_remote)
+                worker = PingWorker(target, self.events, stop_event, interval, timeout, worker_gate,
+                                    self.ssh_remote, self.current_run_id or 0)
                 self.workers[target] = (stop_event, worker); worker.start(); new_count += 1
             else:
                 worker = self.workers[target][1]
@@ -1453,6 +1480,9 @@ Remember canonical source strings so repeated language changes do not translate 
         for stop_event, _worker in self.workers.values():
             stop_event.set()
         self.workers.clear(); self.running = False
+        if self.current_run_id is not None:
+            self._close_unrecovered_outages(self.current_run_id, datetime.now().astimezone())
+            self.current_run_id = None
         self._refresh_run_button()
         remote = self.ssh_remote
         self.ssh_remote = None
@@ -2055,6 +2085,12 @@ The same event is appended to the full event history and to the current snapshot
             if target in self.workers:
                 self.workers[target][0].set(); del self.workers[target]
             self.labels.pop(target, None); self.samples.pop(target, None)
+            self.offline_outage_state = {key: state for key, state in self.offline_outage_state.items()
+                                         if key[0] != target}
+            self.offline_report_history = deque(
+                (row for row in self.offline_report_history if row["target"] != target),
+                maxlen=MAX_NEIGHBOR_HISTORY)
+            self.offline_report_revision += 1
             self.macs.pop(target, None)
             self.card_widgets.pop(target, None)
             self.last_seen.pop(target, None); self.run_offline.discard(target); self.run_ever_online.discard(target); self.card_vars.pop(target, None)
@@ -2086,6 +2122,7 @@ The same event is appended to the full event history and to the current snapshot
         if selection:
             self.selected = selection
         self._redraw_plots()
+        self._refresh_offline_report()
 
     def _drain_events(self) -> None:
         """Consume worker events on Tk’s main thread and update histories, controls, tables, dialogs, and graph redraw scheduling."""
@@ -2131,11 +2168,12 @@ The same event is appended to the full event history and to the current snapshot
                 else:
                     messagebox.showerror(self.tr("SSH-Verbindung fehlgeschlagen"), message, parent=self.root)
                 continue
-            _kind, target, timestamp, latency, result, mac = event
+            _kind, target, timestamp, latency, result, mac, run_id = event
             if target not in self.labels: continue
             if mac:
                 self.macs[target] = mac
             self.samples[target].append((timestamp, latency, result)); changed = True
+            self._record_offline_sample(target, timestamp, latency, run_id)
             changed_targets.add(target)
             if latency is None:
                 self.last_loss[target] = timestamp
@@ -2356,6 +2394,7 @@ The same event is appended to the full event history and to the current snapshot
             var.set(True)
         self.tree.selection_set(tuple(t for t in self.tree.get_children("") if t in self.selected))
         self._redraw_plots()
+        self._refresh_offline_report()
 
     def clear_selection(self) -> None:
         """Clear the current target selection and refresh dependent graph selection."""
@@ -2364,6 +2403,7 @@ The same event is appended to the full event history and to the current snapshot
             var.set(False)
         self.tree.selection_remove(self.tree.selection())
         self._redraw_plots()
+        self._refresh_offline_report()
 
     def _sort_targets(self, column: str) -> None:
         """Sort the main target list by the column whose heading was clicked."""
@@ -2526,6 +2566,290 @@ Numeric latency, loss, and address fields sort by value; empty values are placed
             try: canvas.itemconfigure(window_id, state="hidden")
             except tk.TclError: pass
 
+    def _record_offline_sample(self, target: str, timestamp: datetime,
+                               latency: float | None, run_id: int) -> None:
+        """Open or close an outage interval as each target result arrives."""
+        key = (target, run_id)
+        if latency is None:
+            state = self.offline_outage_state.get(key)
+            if state is None:
+                self.offline_outage_state[key] = {
+                    "target": target, "run_id": run_id,
+                    "offline_since": timestamp, "failed_probes": 1,
+                }
+            else:
+                state["failed_probes"] += 1
+            self.offline_report_revision += 1
+            return
+        state = self.offline_outage_state.pop(key, None)
+        if state is None:
+            # A worker can finish one last probe after Stop has already closed
+            # its open incidents. Reconcile that late success with the saved
+            # interval so the report reflects the actual probe timeline.
+            for report in reversed(self.offline_report_history):
+                if (report["target"] == target and report["run_id"] == run_id
+                        and report["recovered_at"] is None
+                        and timestamp >= report["offline_since"]):
+                    report["recovered_at"] = timestamp
+                    report["duration_seconds"] = max(
+                        0.0, (timestamp - report["offline_since"]).total_seconds())
+                    report["state"] = "Wieder erreichbar."
+                    self.offline_report_revision += 1
+                    break
+            return
+        self.offline_report_history.append({
+            **state, "recovered_at": timestamp,
+            "duration_seconds": max(0.0, (timestamp - state["offline_since"]).total_seconds()),
+            "state": "Wieder erreichbar.",
+        })
+        self.offline_report_revision += 1
+
+    def _close_unrecovered_outages(self, run_id: int, stopped_at: datetime) -> None:
+        """Close unresolved report intervals at the end of their monitoring run."""
+        for key, state in list(self.offline_outage_state.items()):
+            if key[1] != run_id:
+                continue
+            self.offline_report_history.append({
+                **state, "recovered_at": None,
+                "duration_seconds": max(0.0, (stopped_at - state["offline_since"]).total_seconds()),
+                "state": "Messung vor Wiederherstellung gestoppt",
+            })
+            del self.offline_outage_state[key]
+            self.offline_report_revision += 1
+
+    def open_offline_report(self) -> None:
+        """Open the outage report for selected targets, or all targets by default."""
+        if self.offline_report_window is not None and self.offline_report_window.winfo_exists():
+            self.offline_report_window.deiconify()
+            self.offline_report_window.lift()
+            self._refresh_offline_report()
+            return
+        window = tk.Toplevel(self.root)
+        window.title(self.tr("Offline-Berichte"))
+        window.geometry("1120x560")
+        window.minsize(820, 380)
+        self.offline_report_window = window
+
+        heading = ttk.Frame(window, padding=(14, 12, 14, 5))
+        heading.pack(fill="x")
+        ttk.Label(heading, text=self.tr("Offline-Berichte"), style="Section.TLabel").pack(anchor="w")
+        ttk.Label(window, text=self.tr("Bericht nutzt die in der Zielliste ausgewählten Hosts; ohne Auswahl werden alle Hosts berücksichtigt."),
+                  wraplength=1050, style="Muted.TLabel", padding=(14, 0, 14, 8)).pack(anchor="w")
+
+        controls = ttk.Frame(window, padding=(14, 0, 14, 8))
+        controls.pack(fill="x")
+        ttk.Label(controls, text=self.tr("Host-Filter:")).pack(side="left")
+        filter_entry = ttk.Entry(controls, textvariable=self.offline_report_filter, width=30)
+        filter_entry.pack(side="left", padx=(6, 10))
+        filter_entry.bind("<Return>", lambda _event: self._refresh_offline_report())
+        ttk.Label(controls, text=self.tr("Min. Fehlversuche:")).pack(side="left", padx=(6, 3))
+        min_entry = ttk.Entry(controls, textvariable=self.offline_report_min_failed, width=6)
+        min_entry.pack(side="left", padx=(0, 8))
+        min_entry.bind("<Return>", lambda _event: self._refresh_offline_report())
+        ttk.Label(controls, text=self.tr("Max. Fehlversuche:")).pack(side="left", padx=(2, 3))
+        max_entry = ttk.Entry(controls, textvariable=self.offline_report_max_failed, width=6)
+        max_entry.pack(side="left", padx=(0, 8))
+        max_entry.bind("<Return>", lambda _event: self._refresh_offline_report())
+        ttk.Button(controls, text=self.tr("Aktualisieren"), command=self._refresh_offline_report).pack(side="left")
+        ttk.Button(controls, text=self.tr("Bericht exportieren"), command=self.export_offline_report).pack(side="right")
+
+        frame = ttk.Frame(window, padding=(14, 0, 14, 8))
+        frame.pack(fill="both", expand=True)
+        columns = ("hostname", "target", "offline_since", "recovered_at", "duration", "failed", "state")
+        self.offline_report_tree = ttk.Treeview(frame, columns=columns, show="headings", selectmode="browse")
+        headers = (("hostname", "Hostname", 170), ("target", "IP-Adresse / Ziel", 150),
+                   ("offline_since", "Ausfallbeginn", 165), ("recovered_at", "Wieder erreichbar", 165),
+                   ("duration", "Dauer", 105), ("failed", "Fehlgeschlagene Pings", 130), ("state", "Zustand", 210))
+        for column, label, width in headers:
+            self.offline_report_tree.heading(column, text=self.tr(label))
+            self.offline_report_tree.column(column, width=width, minwidth=80, anchor="w")
+        scrollbar = ttk.Scrollbar(frame, orient="vertical", command=self.offline_report_tree.yview)
+        self.offline_report_tree.configure(yscrollcommand=scrollbar.set)
+        self.offline_report_tree.pack(side="left", fill="both", expand=True)
+        scrollbar.pack(side="right", fill="y")
+        self.offline_report_tree.tag_configure("ongoing", foreground="#b4232f")
+        self.offline_report_tree.tag_configure("recovered", foreground="#138a69")
+        self.offline_report_tree.tag_configure("stopped", foreground="#b7791f")
+        self.offline_report_status = tk.StringVar()
+        ttk.Label(window, textvariable=self.offline_report_status, padding=(14, 0, 14, 12),
+                  style="Muted.TLabel").pack(anchor="w")
+
+        window.protocol("WM_DELETE_WINDOW", self.close_offline_report)
+        self._apply_language()
+        self._refresh_offline_report()
+        self._schedule_offline_report_refresh()
+
+    @staticmethod
+    def _format_report_duration(seconds: float) -> str:
+        """Format elapsed report time as days plus an HH:MM:SS clock value."""
+        total_seconds = max(0, int(seconds))
+        days, remainder = divmod(total_seconds, 86_400)
+        hours, remainder = divmod(remainder, 3_600)
+        minutes, seconds = divmod(remainder, 60)
+        clock = f"{hours:02d}:{minutes:02d}:{seconds:02d}"
+        return f"{days}d {clock}" if days else clock
+
+    def _refresh_offline_report(self) -> None:
+        """Render cached outage history and update elapsed time for active outages."""
+        tree = self.offline_report_tree
+        if tree is None or not tree.winfo_exists():
+            return
+        selected_targets = set(self.selected) if self.selected else set(self.labels)
+        query = self.offline_report_filter.get().strip().casefold()
+        minimum = self._parse_optional_count(self.offline_report_min_failed.get())
+        maximum = self._parse_optional_count(self.offline_report_max_failed.get())
+        if minimum is not None and maximum is not None and minimum > maximum:
+            minimum, maximum = maximum, minimum
+        signature = (self.offline_report_revision, tuple(sorted(selected_targets)), query,
+                     minimum, maximum, self.language)
+        rows_changed = signature != self.offline_report_cache_signature
+        if rows_changed:
+            now = datetime.now().astimezone()
+            reports = [dict(row, live=False) for row in self.offline_report_history]
+            for state in self.offline_outage_state.values():
+                reports.append({
+                    **state, "recovered_at": None,
+                    "duration_seconds": max(0.0, (now - state["offline_since"]).total_seconds()),
+                    "state": "Weiterhin offline", "live": True,
+                })
+            reports.sort(key=lambda row: (row["offline_since"], row["target"]))
+            visible = []
+            for report in reports:
+                target = report["target"]
+                hostname = self.labels.get(target, "")
+                if target not in selected_targets:
+                    continue
+                if query and query not in target.casefold() and query not in hostname.casefold():
+                    continue
+                failed = int(report.get("failed_probes", 0))
+                if minimum is not None and failed < minimum:
+                    continue
+                if maximum is not None and failed > maximum:
+                    continue
+                visible.append(report)
+            self.offline_report_rows = visible
+            self.offline_report_cache_signature = signature
+            display_rows = visible[-5_000:]
+            tree.delete(*tree.get_children(""))
+            for index, report in enumerate(display_rows):
+                self._insert_offline_report_row(tree, index, report)
+        else:
+            # Update only open incidents; closed history is unchanged between events.
+            now = datetime.now().astimezone()
+            for report in self.offline_report_rows:
+                if not report.get("live"):
+                    continue
+                report["duration_seconds"] = max(0.0, (now - report["offline_since"]).total_seconds())
+                iid = self._offline_report_iid(report)
+                if tree.exists(iid):
+                    current_values = list(tree.item(iid, "values"))
+                    current_values[4] = self._format_report_duration(report["duration_seconds"])
+                    tree.item(iid, values=current_values)
+
+        if self.offline_report_rows:
+            hosts = len({row["target"] for row in self.offline_report_rows})
+            summary = self.trf("offline_report_summary", periods=len(self.offline_report_rows), hosts=hosts)
+            if len(self.offline_report_rows) > 5_000:
+                summary += self.trf("offline_report_truncated", shown=5_000,
+                                    total=len(self.offline_report_rows))
+            self.offline_report_status.set(summary)
+        else:
+            self.offline_report_status.set(self.tr("Keine Ausfälle im gewählten Zeitraum."))
+
+    @staticmethod
+    def _parse_optional_count(value: str) -> int | None:
+        """Return a non-negative integer filter value, ignoring blank/invalid input."""
+        try:
+            return max(0, int(value.strip())) if value.strip() else None
+        except ValueError:
+            return None
+
+    @staticmethod
+    def _offline_report_iid(report: dict) -> str:
+        """Build a stable Treeview identifier from one host's outage start and run."""
+        return f"offline-{report['target']}-{report['run_id']}-{report['offline_since'].timestamp():.6f}"
+
+    def _insert_offline_report_row(self, tree: ttk.Treeview, index: int, report: dict) -> None:
+        """Insert or update one translated outage row in the report table."""
+        target = report["target"]
+        recovered = report["recovered_at"]
+        timestamp_format = "%Y-%m-%d %H:%M:%S"
+        values = (
+            self.labels.get(target, "") or "—", target,
+            report["offline_since"].astimezone().strftime(timestamp_format),
+            recovered.astimezone().strftime(timestamp_format) if recovered else "—",
+            self._format_report_duration(report["duration_seconds"]),
+            report["failed_probes"], self.tr(report["state"]),
+        )
+        iid = self._offline_report_iid(report)
+        tag = "ongoing" if report.get("live") else ("recovered" if recovered else "stopped")
+        tags = (tag,)
+        if tree.exists(iid):
+            tree.item(iid, values=values, tags=tags)
+            tree.move(iid, "", index)
+        else:
+            tree.insert("", index, iid=iid, values=values, tags=tags)
+
+    def _schedule_offline_report_refresh(self) -> None:
+        """Refresh the report once per second while its window remains open."""
+        if self.offline_report_window is None or not self.offline_report_window.winfo_exists():
+            self.offline_report_refresh_after_id = None
+            return
+        self.offline_report_refresh_after_id = self.root.after(1000, self._run_offline_report_refresh)
+
+    def _run_offline_report_refresh(self) -> None:
+        """Update report durations and schedule the next live refresh."""
+        self.offline_report_refresh_after_id = None
+        self._refresh_offline_report()
+        self._schedule_offline_report_refresh()
+
+    def close_offline_report(self) -> None:
+        """Cancel the report refresh callback and release the report window."""
+        if self.offline_report_refresh_after_id is not None:
+            try:
+                self.root.after_cancel(self.offline_report_refresh_after_id)
+            except tk.TclError:
+                pass
+            self.offline_report_refresh_after_id = None
+        if self.offline_report_window is not None:
+            self.offline_report_window.destroy()
+        self.offline_report_window = None
+        self.offline_report_tree = None
+        self.offline_report_cache_signature = None
+
+    def export_offline_report(self) -> None:
+        """Export the currently filtered outage rows as a semicolon-delimited CSV file."""
+        if not self.offline_report_rows:
+            messagebox.showinfo(self.tr("Keine Offline-Berichte"),
+                                self.tr("Keine Ausfälle im gewählten Zeitraum."),
+                                parent=self.offline_report_window or self.root)
+            return
+        path = filedialog.asksaveasfilename(
+            title=self.tr("Offline-Bericht speichern"), defaultextension=".csv",
+            filetypes=[("CSV", "*.csv"), (self.tr("Alle Dateien"), "*.*")],
+            initialfile="pingee-offline-report.csv", parent=self.offline_report_window or self.root)
+        if not path:
+            return
+        try:
+            with open(path, "w", encoding="utf-8-sig", newline="") as output:
+                writer = csv.writer(output, delimiter=";")
+                writer.writerow([self.tr("Hostname"), self.tr("IP-Adresse / Ziel"),
+                                 self.tr("Ausfallbeginn"), self.tr("Wieder erreichbar"),
+                                 self.tr("Dauer (Sekunden)"), self.tr("Fehlgeschlagene Pings"),
+                                 self.tr("Zustand")])
+                for report in self.offline_report_rows:
+                    recovered = report["recovered_at"]
+                    writer.writerow([
+                        self.labels.get(report["target"], ""), report["target"],
+                        report["offline_since"].astimezone().isoformat(timespec="seconds"),
+                        recovered.astimezone().isoformat(timespec="seconds") if recovered else "",
+                        f"{report['duration_seconds']:.3f}", report["failed_probes"],
+                        self.tr(report["state"]),
+                    ])
+        except OSError as exc:
+            messagebox.showerror(self.tr("Export fehlgeschlagen"), str(exc),
+                                 parent=self.offline_report_window or self.root)
+
     def export_data(self) -> None:
         """Export all in-memory ping measurements to a user-selected CSV file."""
         if not any(self.samples.values()):
@@ -2545,6 +2869,7 @@ Numeric latency, loss, and address fields sort by value; empty values are placed
 
     def _close(self) -> None:
         """Stop background activity, close remote resources, and destroy the root window."""
+        self.close_offline_report()
         self.close_dhcp_monitor()
         self.stop_neighbor_monitor()
         self.stop()

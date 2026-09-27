@@ -10,6 +10,7 @@ pingee is licensed under **GNU GPL version 3 or later**. See [LICENSE](LICENSE).
 
 - Monitor many IP addresses and hostnames concurrently, with a configurable interval, timeout, and local process limit.
 - See live latency and packet-loss data in sortable target tables and time-based graphs.
+- Generate offline reports with outage start, recovery time, duration, and failed-probe count for selected hosts or the full target list; export the filtered report to CSV.
 - Paste plain address lists, Markdown or tabular device inventories, and supported network-topology exports. Hostnames are retained when they can be associated with an address.
 - Import targets from CSV and export measurements, DHCP packets, and neighbor histories to CSV.
 - Run probes on a remote Linux host over SSH. A small pool of persistent shell channels carries many asynchronous ping requests.
